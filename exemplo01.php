@@ -9,8 +9,8 @@
 <?php 
 $a = 10;
 echo " o valor de a é"  . $a;
-
-
+$a = 5;
+echo " o valor de a é"  . $a;
  ?>
 </body>
 </html>
