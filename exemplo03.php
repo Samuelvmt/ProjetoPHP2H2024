@@ -10,5 +10,7 @@
   }
 
   	echo("<br/>Arquivo criado em $data");
-
+  	printf("<br/>Salário mínimo: R$ %.2f", $salario);
+  	$texto = sprintf("<br/> %s recebe R$ %.2f por mês ", $cargo, $salario * 2);
+    echo($texto);
 ?>
